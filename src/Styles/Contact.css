@@ -1,0 +1,95 @@
+.contact-container{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #feffff 0%, #ffffff 50%, #000000 50%, #2980b9 100%);
+}
+.email-form {
+    position:relative;
+    top:5px;
+    left:400px;
+    bottom:50px;
+    width: 400px;
+    margin: 0 600px; 
+    display: flex;
+    flex-direction: column;
+    color: white;
+   
+}
+
+.social-container{
+    position: relative;
+    display: flex;
+    top: 230px;
+    margin-left: 30px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.linked{
+    display:flex;
+    margin-right: 20px;
+}
+.github{
+    display: flex;
+}
+.github >p{
+    margin-right:5px;
+}
+.linked >p{
+    margin-right:5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links {
+    flex: 1;
+    padding: 10px;
+}
+
+.email-container {
+    flex:2;
+    padding: 10px;
+}
+
+.email-button{
+    background-color: white;
+}
+
+
+/* Additional styling as needed for linked and github divs */

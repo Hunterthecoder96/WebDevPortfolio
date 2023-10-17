@@ -1,0 +1,31 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container >a{
+    text-decoration: none;
+    color:black; 
+    padding:10px;
+}
+
+#resume{
+        margin-right: 40px;
+        padding: 5px 10px;
+        border-radius: 7px;
+        border: 1px solid #0b0c0c;
+        font-size: 12px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 2px;
+        background: transparent;
+        color: #0c0b0b;
+        overflow: hidden;
+        box-shadow: 0 0 0 0 transparent;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        
+        
+}

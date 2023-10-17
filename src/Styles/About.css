@@ -1,0 +1,25 @@
+.about-container{
+    padding-bottom: 800px;
+    padding-left:300px;
+    color:white;
+    
+}
+.backing{
+    background: linear-gradient(135deg, #3498db 0%, #3498db 50%, #2980b9 50%, #2980b9 100%);
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.backing > h2{
+    margin-left: 50px;
+    font-size: 100px;
+    padding-bottom: 20px;
+}
+
+.backing >p{
+    font-size: 20px;
+}
+
