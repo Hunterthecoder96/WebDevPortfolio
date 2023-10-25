@@ -2,6 +2,7 @@
     position:absolute;
     display:flex;
     flex-direction: column;
+    width:100vw;
     align-items: flex-start;
     background: linear-gradient(135deg, #feffff 0%, #ffffff 50%, #000000 50%, #2980b9 100%);
 }
@@ -23,6 +24,7 @@
     display: flex;
     top: 230px;
     margin-left: 30px;
+    
 }
 
 
@@ -33,6 +35,8 @@
 .linked{
     display:flex;
     margin-right: 20px;
+    align-items: center;
+    justify-content: center;
 }
 .github{
     display: flex;
@@ -69,8 +73,10 @@ button[type="submit"] {
     transition: background-color 0.3s;
 }
 
-button[type="submit"]:hover {
+.email-button {
     background-color: #2980b9;
+    width: 50px;
+    margin-left: 350px;
 }
 .contact-container {
     display: flex;

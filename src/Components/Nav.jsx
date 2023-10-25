@@ -1,4 +1,5 @@
 import React from "react";
+import {BsLinkedin, BsGithub} from "react-icons/bs"
 import "../Styles/Nav.css"
 import resume from "../assets/Resume-2.pdf"
 
@@ -25,6 +26,9 @@ export default function Nav(){
         </a>
         <a href="#contact"> Contact</a>
         <button onClick={handleClick}id="resume">Resume</button>
+        <BsLinkedin className="linkedin"/>
+        <BsGithub className="github" />
+        
     </div>
     )
 }

@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div className="skills-container">
       <h2 id='title'>Skills</h2>
-      <div className='skills-border'></div>
+     
       <div className="skills-list">
         <div className="skill-item" id='html5'>
         <FaHtml5/>
@@ -58,9 +58,8 @@ export default function Skills() {
         <SiJquery />
           <p>JQuery</p>
         </div>
+        </div>
 
       </div>
-      <div className='skills-border'></div>
-    </div>
   );
 };

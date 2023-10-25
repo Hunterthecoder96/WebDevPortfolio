@@ -16,10 +16,10 @@ export default function Projects(){
           <img  src={Craps}/>
           <div className="card-btns">
           <button className='github-link'>
-            <a href='https://github.com/Mattrob10/CMA-REACT' target='blank' id='card-btn'>GitHub</a>
+            <a href='' target='' id='card-btn'>GitHub</a>
           </button>
           <button className='live-project'>
-            <a href='https://magical-malabi-9c3700.netlify.app/' target='blank' id='card-btn'>DEMO</a>
+            <a href='' target='blank' id='card-btn'>DEMO</a>
           </button>
         </div>
         </div>
@@ -42,7 +42,7 @@ export default function Projects(){
           <img src={SkullySauce}/>
           <div className="card-btns">
           <button className='github-link'>
-            <a  target='blank' id='card-btn'>GitHub</a>
+            <a  href="https://github.com/Hunterthecoder96/SkullySauce" target='https://github.com/Hunterthecoder96/SkullySauce' id='card-btn'>GitHub</a>
           </button>
           <button className='live-project'>
             <a target='blank' id='card-btn'>DEMO</a>

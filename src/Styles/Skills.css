@@ -1,85 +1,157 @@
-.skills-border {
-    width: 70%;
-    border-top: 1px solid #0c0c0c; 
-    margin: 50px auto;  
-  }
+.skills-container {
+ position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
   
+ }
+.skills-list { 
+  position:absolute;
+  border-radius:50%;
+
+display: flex;
+top:15%;
+flex-wrap: wrap;
+justify-content: center;
+height:80%;
+width:80%;
+transform: translate(-50%, -50%);
+align-items:center;
+
+animation: rotation 20s infinite linear;
+}
+
+
+
+  @keyframes rotation {
+    from {
+       transform: rotate(0deg);
+    }
+    to {
+       transform: rotate(360deg);
+    }
+   } 
+   
   #title {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 300;
-    margin-top: 6.5rem;
+    
   }
   
-  .skills-list {
-    display: flex;
-   justify-content: center; 
-    font-size: 23px;
-  }
+  
+   
 
   
   .skill-item {
-    display: flex;
-    flex-direction: column;
-     align-items: center;
-    margin: 10px;
+    position: absolute;
+    width:50px;
+    height:50px;
+    text-align: center;
+    font-size: 14px;
+   }
    
-  }
 
   .skill-item:hover{
     transform: scale(1.2);
   }
+
+  
+  
   
   .skill-item p {
-    margin-top: 10px;
     text-align: center;
   }
   
   #html5 {
     color: #E44D26;
+    top: 2%;
+    left: 20%;
+    transform: rotate(-20deg);
+   
   }
   
   #css3 {
     color: #1572B6;
+    top: -3%;
+    left: 45%;
   }
   
   #json {
     color: #606060;
+    top: 20%;
+    left: 85%;
+    transform: rotate(55deg);
   }
   
   #javaScript {
     color: #F7DF1E;
+    top: 2%;
+    left: 67%;
+    transform:rotate(24deg);
+    
   }
   #react {
     color: #61DAFB;
+    top: 45%;
+    left: -5%;
+    transform:rotate(-93deg)
+    
   }
   
   #vite {
     color: #646CFF;
+    top: 45%;
+    left: 92%;
+    transform: rotate(90deg);
   }
   
   #express {
-    color: #fffdfd;
+    color: #08a508;
+    top: 70%;
+    left: 86%;
+    transform:rotate(123deg)
   }
   
   #git {
     color: #F05032;
+    top: 20%;
+    left: 2%;
+    transform:rotate(-50deg)
   }
   
   #nodemon {
     color: #76D04B;
+    top: 68%;
+    left: 2%;
+    transform:rotate(-119deg)
   }
   
   #mongo {
     color: #589636;
+    top: 92%;
+    left: 45%;
+    transform: rotate(180deg);
   }
   
   #postman {
     color: #ef5b25;
+    top:83%;
+    left:15%;
+    transform:rotate(213deg)
   }
   
   #jquery {
     color:#B24926;
+    top:86%;
+    left:67%;
+    transform:rotate(150deg)
   }
+
+
+ 
