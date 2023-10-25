@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/About.css";
 
+
 export default function About(){
 
 
@@ -20,6 +21,7 @@ export default function About(){
                      <br/>
                 <p>I'm passionate about staying at the forefront of industry trends and emerging technologies, ensuring that I continue to deliver outstanding results in the ever-evolving tech landscape. I'm excited to contribute my expertise to the dynamic tech field, and I look forward to new opportunities for innovation and growth.</p>
             </div>
+            
         </div>
     )
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import SkullySauce from "../assets/Skullyscreenshot.png"
+import Craps from "../assets/craps.png"
 import "../Styles/Projects.css"
 
 export default function Projects(){
@@ -11,7 +13,7 @@ export default function Projects(){
         <div className="card card1">
           <h2>Roll Dice</h2>
           <p>Fun game that allows you to roll two six sided dice, great for resolving debates.</p>
-          <img  alt=''/>
+          <img  src={Craps}/>
           <div className="card-btns">
           <button className='github-link'>
             <a href='https://github.com/Mattrob10/CMA-REACT' target='blank' id='card-btn'>GitHub</a>
@@ -37,7 +39,7 @@ export default function Projects(){
         <div className="card card1">
           <h2>Skully Sauce</h2>
           <p>E-commerce Store </p>
-          <img alt=''/>
+          <img src={SkullySauce}/>
           <div className="card-btns">
           <button className='github-link'>
             <a  target='blank' id='card-btn'>GitHub</a>
