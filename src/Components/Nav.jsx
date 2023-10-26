@@ -25,10 +25,13 @@ export default function Nav(){
         Projects
         </a>
         <a href="#contact"> Contact</a>
-        <button onClick={handleClick}id="resume">Resume</button>
+        <button onClick={handleClick} className="resume">Resume</button>
+        <a href="https://www.linkedin.com/in/hunter-skolnick-62530b138/">
         <BsLinkedin className="linkedin"/>
+        </a>
+        <a href="https://github.com/Hunterthecoder96">
         <BsGithub className="github" />
-        
+        </a>
     </div>
     )
 }

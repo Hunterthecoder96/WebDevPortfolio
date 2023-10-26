@@ -68,6 +68,7 @@ export default function Skills() {
       <p>- Adaptive Learner</p>
       <p>- Competetive</p>
       <p>- Communication</p>
+      <p>- Critical Thinking for Problem Solving</p>
       </div>
       </div>
   );

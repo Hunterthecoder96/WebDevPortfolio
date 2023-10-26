@@ -11,14 +11,16 @@
 
 .linkedin{
     padding-left:5px;
+    height:35px;
+    width:35px;
+    color:rgb(78, 78, 221)
 }
 .github{
-    width:15px;
-    height:15px;
+    width:35px;
+    height:35px;
 }
 
-#resume{
-        margin-right: 40px;
+.resume {
         padding: 5px 10px;
         border-radius: 7px;
         border: 1px solid #0b0c0c;
@@ -33,7 +35,15 @@
         box-shadow: 0 0 0 0 transparent;
         -webkit-transition: all 0.2s ease-in;
         -moz-transition: all 0.2s ease-in;
-        transition: all 0.2s ease-in;
+        transition: all 1s ease-in;
         
         
+}
+
+.resume:hover {
+    stroke-width: 5;
+    stroke-dasharray: 20,300;
+    stroke-dashoffset: 48;
+    stroke:#ff9950;
+    transition: all 2s cubic-bezier(0.22, 1, 0.25,1)
 }
