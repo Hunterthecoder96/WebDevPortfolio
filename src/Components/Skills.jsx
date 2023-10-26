@@ -6,8 +6,9 @@ import "../Styles/Skills.css"
 
 export default function Skills() {
   return (
+    <div className="skills">
     <div className="skills-container">
-      <h2 id='title'>Skills</h2>
+      <h2 id='title'>Tech Skills</h2>
      
       <div className="skills-list">
         <div className="skill-item" id='html5'>
@@ -60,6 +61,14 @@ export default function Skills() {
         </div>
         </div>
 
+      </div>
+      <div className='skill-right'>
+      <h1 >Soft Skills</h1>
+      <p>- Team player</p>
+      <p>- Adaptive Learner</p>
+      <p>- Competetive</p>
+      <p>- Communication</p>
+      </div>
       </div>
   );
 };
