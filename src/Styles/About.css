@@ -5,6 +5,12 @@
     color:white;
     
 }
+
+@media (max-width:700px) {
+    .about-container {
+        padding-left: 0px;
+    }
+}
 .backing{
     background: linear-gradient(135deg, #3498db 0%, #3498db 50%, #2980b9 50%, #2980b9 100%);
     color: #fff;
