@@ -1,7 +1,7 @@
 import React from "react";
 import {BsLinkedin, BsGithub} from "react-icons/bs"
 import "../Styles/Nav.css"
-import resume from "../assets/VSchool resume 2.pdf"
+import resume from "../assets/APPROVED RESUME.pdf"
 
 export default function Nav(){
 
