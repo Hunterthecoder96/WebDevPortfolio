@@ -15,6 +15,8 @@ export default function Nav(){
 
     return(
     <div className="nav-container"> 
+    <h1 className="logo">HS</h1>
+    <div className="link-container">
         <a href='#about' className="link" >
           About
         </a>
@@ -24,14 +26,17 @@ export default function Nav(){
         <a href='#projects'className="link" >
         Projects
         </a>
-        <a href="#contact"> Contact</a>
-        <button onClick={handleClick} className="resume">Resume</button>
+        <a href="#contact" className="link"> Contact</a>
+        </div>
+        <div className="resources">
+        <button onClick={handleClick} className="resume resource">Resume</button>
         <a href="https://www.linkedin.com/in/hunter-skolnick-62530b138/">
-        <BsLinkedin className="linkedin"/>
+        <BsLinkedin className="linkedin resource"/>
         </a>
         <a href="https://github.com/Hunterthecoder96">
-        <BsGithub className="github" />
+        <BsGithub className="github resource" />
         </a>
+        </div>
     </div>
     )
 }

@@ -1,4 +1,76 @@
 .nav-container{
+    height:5rem;
+    width:100vw;
+    /* max-width: 65rem; */
+    margin:0 auto;
+    padding:1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    
+}
+
+.logo{
+    object-fit: cover;
+    height:3rem;
+    width:4rem;
+    text-decoration: underline overline;
+     box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2);;
+}
+.link-container{
+align-items: center;
+justify-content: center;
+}
+.link{
+    text-decoration: none;
+    margin:1rem;
+    color:black;
+    cursor:pointer;
+
+
+}
+
+.resources{
+    display: flex;
+    
+}
+.resource{margin:0.9rem;}
+
+.resume {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 1px solid #0b0c0c;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #0c0b0b;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 1s ease-in;
+    
+}
+
+.linkedin{
+    padding-left:5px;
+    height:35px;
+    width:35px;
+    color:rgb(78, 78, 221)
+}
+.github{
+    width:35px;
+    height:35px;
+}
+
+
+
+
+/* .nav-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,4 +118,4 @@
     stroke-dashoffset: 48;
     stroke:#ff9950;
     transition: all 2s cubic-bezier(0.22, 1, 0.25,1)
-}
+} */

@@ -64,11 +64,22 @@ export default function Skills() {
       </div>
       <div className='skill-right'>
       <h1 >Soft Skills</h1>
-      <p>- Team player</p>
-      <p>- Adaptive Learner</p>
-      <p>- Competetive</p>
+      <p>- Problem Solving</p>
+      <p>- Collaborative Problem Solving</p>
+      <p>- Patience</p>
+      <p>- Creative</p>
+      <p>- High Level of Accuracy</p>
       <p>- Communication</p>
-      <p>- Critical Thinking for Problem Solving</p>
+      <p>- Empathy</p>
+      <p>- Open-Mindedness</p>
+      <p>- Adaptability</p>
+      <p>- Critical Thinking</p>
+      <p>- Accountability</p>
+      <p>- Humbleness</p>
+      <p>- Self-Confidence</p>
+      <p>- Time Management</p>
+      <p>- People Management</p>
+      <p>- Project Management</p>
       </div>
       </div>
   );
