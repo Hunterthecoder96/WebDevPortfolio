@@ -2,6 +2,7 @@ import React from "react";
 import SkullySauce from "../assets/Skullyscreenshot.png"
 import Craps from "../assets/craps.png"
 import "../Styles/Projects.css"
+import Valocal from "../assets/Valocalfindsdemo.png"
 
 export default function Projects(){
 
@@ -24,15 +25,15 @@ export default function Projects(){
         </div>
         </div>
         <div className="card card1">
-          <h2>Surf Yurt</h2>
-          <p>MERN Stack Blog</p>
-          <img alt=''/>
+          <h2>Virginia Beach Local Finds</h2>
+          <p>Built for tourist to find the local resturaunts and attractions</p>
+          <img src={Valocal} alt='VbLocal'/>
           <div className="card-btns">
           <button className='github-link'>
-            <a  target='blank' id='card-btn'>GitHub</a>
+            <a  href="https://github.com/Hunterthecoder96/VaBeachLocalFinds" target='blank' id='card-btn'>GitHub</a>
           </button>
           <button className='live-project'>
-            <a target='blank' id='card-btn'>DEMO</a>
+            <a href="https://vabeachlocalfinds.netlify.app/" target='blank' id='card-btn'>DEMO</a>
           </button>
         </div>
         </div>
