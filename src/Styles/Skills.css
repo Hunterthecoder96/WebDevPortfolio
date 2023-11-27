@@ -36,8 +36,6 @@
  }
 
 
-
-
 .skills-list { 
   position:absolute;
   border-radius:50%;
@@ -63,6 +61,7 @@ animation: rotation 20s infinite linear;
     }
    } 
    
+
   #title {
     display: flex;
     justify-content: center;
@@ -71,8 +70,7 @@ animation: rotation 20s infinite linear;
     font-weight: 300;
     
   }
-  
-  
+
    
 
   
@@ -184,4 +182,38 @@ animation: rotation 20s infinite linear;
   }
 
 
- 
+  @media screen and (max-width: 980px) {
+    .skills-container {
+      width: 90%; /* Adjust width to fit smaller screens */
+      height: auto; /* Allow the height to adjust based on content */
+      padding-left: 0; /* Remove excessive left padding */
+      margin-bottom: 50px; /* Reduce excessive margin */
+      flex-direction: column; /* Arrange items vertically */
+    }
+  
+    .skills-list {
+      position: static; /* Remove absolute positioning */
+      transform: none; /* Remove any transformation */
+      width: 100%; /* Occupy full width */
+      height: auto; /* Allow height to adjust based on content */
+      justify-content: center; /* Center items horizontally */
+      animation: none; /* Remove the rotation animation */
+    }
+  
+    .skill-item {
+      position: static; /* Remove absolute positioning */
+      transform: none; /* Remove any transformation */
+      margin: 10px; /* Add space between skill items */
+      text-align: center; /* Center text */
+    }
+  
+    .skill-right {
+      margin-left: 0; /* Remove excessive margin */
+      margin-top: 20px; /* Create space between the two sections */
+      text-align: center; /* Center text */
+    }
+    #html5,#css3,#json,#react,#javaScript,#express,#nodemon,#postman,#git,#vite,#mongo,#jquery{
+      transform: rotate(0deg);
+    }
+  }
+  
