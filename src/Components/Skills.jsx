@@ -62,6 +62,7 @@ export default function Skills() {
         </div>
 
       </div>
+      
       <div className='skill-right'>
       <h1 >Soft Skills</h1>
       <p>- Problem Solving</p>

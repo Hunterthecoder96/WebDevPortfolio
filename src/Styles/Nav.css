@@ -7,15 +7,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position:sticky;
+    position:fixed;
     
 }
 
 .logo{
+    display: flex;
     object-fit: cover;
+    align-items: center;
+    justify-content: center;
     height:3rem;
     width:4rem;
     text-decoration: underline overline;
+    border-radius: 50%;
      box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2);;
 }
 .link-container{
