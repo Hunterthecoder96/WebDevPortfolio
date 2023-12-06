@@ -8,7 +8,7 @@ export default function Intro() {
   useEffect(() => {
     // Initialize the first Typed.js effect
     const firstTypedOptions = {
-      strings: [ "Welcome to my Portfolio", "<span className='different-text'>Hunter Skolnick</span>"],
+      strings: ["<span className='different-text'>Hunter Skolnick</span>"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: false,
