@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/About.css";
+import Skills from "./Skills";
 
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,7 +26,8 @@ export default function About() {
   }, []);
 
   return (
-    <div className="about-container">
+    <div className="about-container"> 
+    <Skills />
       <div className={`backing ${isVisible ? 'is-visible' : ''}`}>
       <h2>About</h2>
     <p>As a Full Stack Web Developer, I bring a unique blend of technical expertise and a creative edge from my background in marketing. 
@@ -39,6 +41,7 @@ export default function About() {
         <br/>
     <p>I'm passionate about staying at the forefront of industry trends and emerging technologies, ensuring that I continue to deliver outstanding results in the ever-evolving tech landscape. I'm excited to contribute my expertise to the dynamic tech field, and I look forward to new opportunities for innovation and growth.</p>           
       </div>
+   
     </div>
   );
 }

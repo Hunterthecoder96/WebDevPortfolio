@@ -1,12 +1,24 @@
 .about-container {
-    padding-bottom: 800px;
+    padding-bottom: 400px;
+    display: flex;
     padding-left: 300px;
     color: white;
+    background-color: rgb(163, 161, 161);
+    padding-top: 200px;
+    border-radius: 10%;
   }
   
   @media (max-width: 900px) {
     .about-container {
       padding-left: 0px;
+      display: flex;
+      flex-direction:column-reverse ;
+   
+
+    }
+    .skills-container{
+      position:fixed;
+      left:50%;
     }
   }
   

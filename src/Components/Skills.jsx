@@ -60,28 +60,9 @@ export default function Skills() {
           <p>JQuery</p>
         </div>
         </div>
-
       </div>
       
-      <div className='skill-right'>
-      <h1 >Soft Skills</h1>
-      <p>- Problem Solving</p>
-      <p>- Collaborative Problem Solving</p>
-      <p>- Patience</p>
-      <p>- Creative</p>
-      <p>- High Level of Accuracy</p>
-      <p>- Communication</p>
-      <p>- Empathy</p>
-      <p>- Open-Mindedness</p>
-      <p>- Adaptability</p>
-      <p>- Critical Thinking</p>
-      <p>- Accountability</p>
-      <p>- Humbleness</p>
-      <p>- Self-Confidence</p>
-      <p>- Time Management</p>
-      <p>- People Management</p>
-      <p>- Project Management</p>
-      </div>
+  
       </div>
   );
 };

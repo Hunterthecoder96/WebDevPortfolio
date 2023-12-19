@@ -1,6 +1,6 @@
 import React from "react";
 import SkullySauce from "../assets/Skullyscreenshot.png"
-import Craps from "../assets/craps.png"
+import SurfYurt from "../assets/Surfyurt.png"
 import "../Styles/Projects.css"
 import Valocal from "../assets/Valocalfindsdemo.png"
 
@@ -12,15 +12,15 @@ export default function Projects(){
       <h2 id='title'>Projects</h2>
       <div className="my-work">
         <div className="card card1">
-          <h2>Roll Dice</h2>
-          <p>Fun game that allows you to roll two six sided dice, great for resolving debates.</p>
-          <img  src={Craps}/>
+          <h2>Surf Yurt</h2>
+          <p>Full Stack project allowing users to share the surfboards they own. Added Comment functionality and 5 star rating system.</p>
+          <img  src={SurfYurt}/>
           <div className="card-btns">
           <button className='github-link'>
             <a href='' target='' id='card-btn'>GitHub</a>
           </button>
           <button className='live-project'>
-            <a href='' target='blank' id='card-btn'>DEMO</a>
+            <a href='https://surfyurt.onrender.com/' target='blank' id='card-btn'>DEMO</a>
           </button>
         </div>
         </div>
