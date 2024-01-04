@@ -25,7 +25,7 @@ export default function Projects(){
         </div>
         </div>
         <div className="card card1">
-          <h2>Virginia Beach Local Finds</h2>
+          <h2>Virginia Beach Tourist Guide</h2>
           <p>Built for tourist to find the local resturaunts and attractions</p>
           <img src={Valocal} alt='VbLocal'/>
           <div className="card-btns">
