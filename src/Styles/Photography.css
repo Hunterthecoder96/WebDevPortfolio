@@ -1,0 +1,26 @@
+ .photo-container{
+    padding:120px;
+    display: flex;
+    flex-direction: column;
+}
+.images>img{
+    width:400px;
+    height:300px;
+    padding:10px;
+}
+.images >img:hover{
+    transform: scale(1.7) ;
+
+}
+.images{
+    flex-direction: row;
+    
+} 
+.camera{
+    width:40px;
+    height:40px
+}
+.photo-head{
+    display: flex;
+}
+

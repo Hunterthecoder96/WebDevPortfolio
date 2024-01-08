@@ -2,6 +2,7 @@ import React from "react";
 import {BsLinkedin, BsGithub} from "react-icons/bs"
 import "../Styles/Nav.css"
 import resume from "../assets/APPROVED RESUME.pdf"
+import Cam from "../assets/wired-outline-61-camera.gif"
 
 export default function Nav(){
 
@@ -17,6 +18,7 @@ export default function Nav(){
     <div className="nav-container"> 
     <h1 className="logo">HS</h1>
     <div className="link-container">
+      
         <a href='#about' className="link" >
           About
         </a>
