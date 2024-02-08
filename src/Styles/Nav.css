@@ -35,6 +35,9 @@ justify-content: center;
 
 
 }
+.link :hover{
+   color: aqua;
+}
 
 .resources{
     display: flex;

@@ -21,7 +21,7 @@ export default function Nav(){
       
         <a href='#about' className="link" >
           About
-        </a>
+        </a> 
       
         <a href='#projects'className="link" >
         Projects

@@ -2,7 +2,6 @@
 .skills{
   display:flex;
   background-color:  rgb(163, 161, 161);
-
 }
 
 
@@ -16,10 +15,6 @@
   height: 500px;
   margin: 0 ;
   left:-320px;
-  
-  
-;
-  
  }
 
 
@@ -27,18 +22,15 @@
   position:absolute;
   border-radius:50%;
   display: flex;
-top:15%;
-
-flex-wrap: wrap;
-justify-content: center;
-height:80%;
-width:80%;
-transform: translate(-50%, -50%);
-align-items:center;
-animation: rotation 20s infinite linear;
+  top:15%;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:80%;
+  width:80%;
+  transform: translate(-50%, -50%);
+  align-items:center;
+  animation: rotation 20s infinite linear;
 }
-
-
 
   @keyframes rotation {
     from {
