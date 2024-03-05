@@ -2,7 +2,7 @@ import React from "react";
 import SkullySauce from "../assets/Skullyscreenshot.png"
 import SurfYurt from "../assets/Surfyurt.png"
 import "../Styles/Projects.css"
-import Valocal from "../assets/Valocalfindsdemo.png"
+import Valocal from "../assets/Vatourist.png"
 
 export default function Projects(){
 
