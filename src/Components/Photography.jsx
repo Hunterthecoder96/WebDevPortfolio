@@ -8,6 +8,7 @@ import Avon from "../assets/kinakeet gold.png"
 import"../Styles/Photography.css"
 import Cam from "../assets/wired-outline-61-camera.gif"
 import Empty from"../assets/Empty perfection.png"
+import LandingGeese from"../assets/landinggeese.png"
 export default function Photography(){
     const settings = {
         dots: true,
@@ -33,6 +34,7 @@ export default function Photography(){
             <img className="images" src={Empty}/>
             <img className="images" src={BowSeason}/>
             <img className="images" src={Avon}/>
+            <img className="images" src={LandingGeese}/>
             </Slider>
     
         </div>

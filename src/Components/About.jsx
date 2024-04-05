@@ -1,34 +1,19 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/About.css";
 import Skills from "./Skills";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function About() {
-  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const revealSection = () => {
-      const backingElement = document.querySelector('.backing');
-      const revealSectionPosition = backingElement.getBoundingClientRect().top;
-      const windowHeight = window.innerHeight;
-
-      if (revealSectionPosition < windowHeight * 0.75) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
-
-    window.addEventListener('scroll', revealSection);
-
-    return () => {
-      window.removeEventListener('scroll', revealSection);
-    };
+    AOS.init();
   }, []);
 
   return (
     <div className="about-container"> 
     <Skills />
-      <div className={`backing ${isVisible ? 'is-visible' : ''}`}>
+      <div data-aos="fade-left" className="backing">
       <h2>About</h2>
     <p>As a Full Stack Web Developer, I bring a unique blend of technical expertise and a creative edge from my background in marketing. 
     I specialize in crafting visually stunning and fully functional web applications, ensuring both the customer's and user's needs are met.</p>

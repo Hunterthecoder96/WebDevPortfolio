@@ -28,12 +28,12 @@
     transform: translateX(100%);
     transition: opacity 1s, transform 1s;
   }
-  
+/*   
   .backing.is-visible {
     opacity: 1;
     transform: translateX(0);
   }
-  
+   */
   .backing {
     background: linear-gradient(135deg, #3498db 0%, #3498db 50%, #2980b9 50%, #2980b9 100%);
     color: #fff;
