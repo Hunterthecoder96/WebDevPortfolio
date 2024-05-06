@@ -43,7 +43,10 @@ justify-content: center;
     display: flex;
     
 }
-.resource{margin:0.9rem;}
+.resource{
+    margin:0.9rem;
+    color: black;
+}
 
 .resume {
     padding: 5px 10px;
@@ -68,7 +71,7 @@ justify-content: center;
     padding-left:5px;
     height:35px;
     width:35px;
-    color:rgb(78, 78, 221)
+    
 }
 .github{
     width:35px;
