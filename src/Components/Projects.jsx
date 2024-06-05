@@ -1,8 +1,8 @@
 import React from "react";
-import SkullySauce from "../assets/Skullyscreenshot.png"
-import SurfYurt from "../assets/Surfyurt.png"
-import "../Styles/Projects.css"
-import Valocal from "../assets/Vatourist.png"
+import SurfYurt from "../assets/Surfyurt.png";
+import "../Styles/Projects.css";
+import shredneckzweb from "../assets/shredneckzweb.png";
+import Valocal from "../assets/Vatourist.png";
 
 export default function Projects(){
 
@@ -38,15 +38,15 @@ export default function Projects(){
         </div>
         </div>
         <div className="card card1">
-          <h2>Skully Sauce</h2>
-          <p>E-commerce Store </p>
-          <img src={SkullySauce}/>
+          <h2>Shrednecks</h2>
+          <p>e-commerce, blog, and food recipe website showing my skills with frontend development and data passing using useState</p>
+          <img src={shredneckzweb}/>
           <div className="card-btns">
           <button className='github-link'>
-            <a  href="https://github.com/Hunterthecoder96/SkullySauce" target='https://github.com/Hunterthecoder96/SkullySauce' id='card-btn'>GitHub</a>
+            <a  href="https://github.com/Hunterthecoder96/Shrednecks" target='https://github.com/Hunterthecoder96/SkullySauce' id='card-btn'>GitHub</a>
           </button>
           <button className='live-project'>
-            <a target='blank' id='card-btn'>DEMO</a>
+            <a href="https://shrednecks.netlify.app" target='blank' id='card-btn'>DEMO</a>
           </button>
         </div>
         </div>
