@@ -164,28 +164,28 @@
 
   @media screen and (max-width: 980px) {
     .skills-container {
-       width: 90%; /*Adjust width to fit smaller screens */
-      height: auto; /* Allow the height to adjust based on content */
-      padding-left: 0; /* Remove excessive left padding */
-      margin-bottom: 50px; /* Reduce excessive margin */
+       width:100%;
+      height: auto; 
+      padding-left: 500px; 
+      margin-bottom: 50px; 
       margin-left: 20px;
-      flex-direction: column; /* Arrange items vertically */
+      flex-direction: column; 
     }
   
     .skills-list {
-      position: static; /* Remove absolute positioning */
-      transform: none; /* Remove any transformation */
-      width: 100%; /* Occupy full width */
-      height: auto; /* Allow height to adjust based on content */
-      justify-content: center; /* Center items horizontally */
-      animation: none; /* Remove the rotation animation */
+      position: static; 
+      transform: none; 
+      width: 100%; 
+      height: auto; 
+      justify-content: center; 
+      animation: none; 
     }
   
     .skill-item {
-      position: static; /* Remove absolute positioning */
-      transform: none; /* Remove any transformation */
-      margin: 10px; /* Add space between skill items */
-      text-align: center; /* Center text */
+      position: static; 
+      transform: none; 
+      margin: 10px; 
+      text-align: center; 
     }
   
   
