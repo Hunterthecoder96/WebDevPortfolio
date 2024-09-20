@@ -14,6 +14,11 @@ export default function Nav(){
         link.click();
       }; 
 
+
+
+
+  
+
     return(
     <div className="nav-container"> 
     <h1 className="logo">HS</h1>
